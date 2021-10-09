@@ -1,0 +1,55 @@
+body {
+            position: relative;
+        }
+
+        .ant {
+            width: 600px;
+            height: 300px;
+            border-bottom: 300px solid black;
+            background-color: white;
+            border-radius: 50%;                
+            /* color: aqua; */
+            font-size: 28px;
+            /* position: absolute; */
+            position: relative;
+            left: 200px;
+            top: 80px;
+            animation: myfirst 1s infinite linear;
+        } 
+
+        .ant::after {
+            content: '';
+            width: 100px;
+            height: 100px;
+            display: block;
+            position: absolute;
+            border: 100px solid black;
+            border-radius: 300px;
+            top: 140px;
+            background-color:white;
+        }
+
+        .ant::before {
+            content: '';
+            /* border: 1px solid red; */
+            width: 100px;
+            height: 100px;
+            display: block;
+            position: absolute;
+            border: 100px solid white;
+            border-radius: 300px;
+           position: absolute;
+            right: 0;
+            top: 150px;
+            background-color: black;
+        }
+
+        @keyframes myfirst {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            } 
+        }
