@@ -140,7 +140,7 @@
         .nav span {
             text-align: center;
             position: absolute;
-            animation: thired 3s linear;
+            animation: thired 3s linear 4s;
         }
 
         .footer {
