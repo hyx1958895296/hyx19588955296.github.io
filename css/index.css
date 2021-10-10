@@ -1,4 +1,4 @@
- body {
+body {
             margin: 0 auto;
             padding: 0;
             position: relative;
@@ -55,6 +55,13 @@
             25% {
                 color: rgb(187, 214, 65);
                 transform: skewX(90deg);
+                text-shadow: 0 0 10px #fff,
+                    0 0 20px #fff, 0 0 30px #fff,
+                    0 0 40px #00a67c,
+                    0 0 70px #00a67c,
+                    0 0 80px #00a67c,
+                    0 0 100px #00a67c,
+                    0 0 150px #00a67c;
             }
 
             50% {
@@ -140,7 +147,7 @@
         .nav span {
             text-align: center;
             position: absolute;
-            animation: thired 3s linear 4s;
+            animation: thired 3s linear;
         }
 
         .footer {
@@ -151,18 +158,50 @@
         .submit {
             font-size: 26px;
             font-family: '楷体';
-            width: 500px;
+            width: 200px;
             height: 50px;
-            border-radius: 25px;
             background-color: aquamarine;
             display: block;
             margin: 0 auto;
+            position: relative;
+            animation: fourth 1s linear;
+        }
+
+        @keyframes fourth {
+            0% {
+                background: red;
+                left: 200px;
+                transform: rotate(45deg);
+            }
+
+            25% {
+                background: yellow;
+                left: 400px;
+            }
+
+            50% {
+                background: blue;
+                left: -300px;
+                transform: rotate(-90deg);
+            }
+
+            75% {
+                background: blue;
+                left: 200px;
+                transform: rotate(360deg);
+            }
+
+            100% {
+                background-color: #00a67c;
+                left: 200px;
+                transform: rotate(180deg);
+            }
         }
 
         .dj {
+            animation: wrap 10s ease alternate;
             /* 把物体动画地从一个地方移动到另一个地方，并让它停留在那里： */
             animation-fill-mode: forwards;
-            animation: wrap 3s ease alternate;
         }
 
         @keyframes wrap {
