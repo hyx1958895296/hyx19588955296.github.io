@@ -136,6 +136,7 @@ header h2 {
     margin-top: 20px;
     position: relative;
     color: white;
+    cursor: pointer;
 }
 
 .firsttop {
