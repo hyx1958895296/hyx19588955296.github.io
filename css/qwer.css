@@ -38,6 +38,7 @@ a {
     height: 100px;
     color: white;
     background: transparent url(../img/github-button.png) no-repeat;
+    cursor:pointer;
 }
 
 header h2 {
