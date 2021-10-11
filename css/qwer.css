@@ -37,7 +37,7 @@ a {
     width: 210px;
     height: 100px;
     color: white;
-    background: transparent url(./img/github-button.png) no-repeat;
+    background: transparent url(../img/github-button.png) no-repeat;
 }
 
 header h2 {
@@ -69,7 +69,7 @@ header h2 {
     margin: 0 auto;
     width: 316px;
     height: 500px;
-    background: url(./img/sidebar-bg.jpg);
+    background: url(../img/sidebar-bg.jpg);
     background-repeat: no-repeat;
     background-color: #fbfbfb;
 }
@@ -132,7 +132,7 @@ header h2 {
 .first {
     width: 202px;
     height: 78px;
-    background-image: url(./img/download-button.png);
+    background-image: url(../img/download-button.png);
     margin-top: 20px;
     position: relative;
     color: white;
