@@ -80,12 +80,6 @@ ellipsis.exec();
 // url.get('id') // 1；
 // url.get('name') // xiaoming;
 
-
-
-
-
-
-
 //作业1 作业输出
 //将src/home/index.js中代码打包到docs/home文件夹中，
 //文件夹名叫helloworld.js
